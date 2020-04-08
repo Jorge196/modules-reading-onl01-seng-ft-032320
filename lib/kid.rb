@@ -1,5 +1,9 @@
 class Kid
 
+  extend FancyDance::ClassMethods
+  include FancyDance::InstanceMethods 
+
+  extend MetaDancing
   include Dance
 
   attr_accessor :name
@@ -8,6 +12,6 @@ class Kid
     @name = name
   end
 
-  extend MetaDancing 
+
 
 end
