@@ -1,9 +1,9 @@
-class Kid 
-  include Dance 
+class Kid
+  include Dance
 
-  attr_accessor :name 
+  attr_accessor :name
 
   def initialize(name)
-    @name = name 
-  end 
+    @name = name
+  end
 end 
